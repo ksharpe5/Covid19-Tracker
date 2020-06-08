@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+::selection {
+    background: #4299e1;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #4299e1;
+    color: #ffffff;
+}
